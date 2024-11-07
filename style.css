@@ -80,7 +80,8 @@ h1 {
 
 
 h2 {
-    margin-bottom: 5px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     text-align: center;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -199,7 +200,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     width: 450px;
-    height: 350px;
+    height: 500px;
     background-color: chocolate;
 }
 
@@ -213,17 +214,18 @@ form {
     margin: auto;
     margin-bottom: 35px;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 
 }
 
 .controls {
+    font-size: 30px;
     background-color: bisque;
     width: 400px;
     margin: auto;
     margin-bottom: 15px;
     margin-top: 15px;
-    height: 30px;
+    height: 50px;
     border: 2px blue solid;
     font-size: 15px;
 }
@@ -255,6 +257,3 @@ footer {
     .icono-mascota{
         display: none;
     }
-   
-    }
-    
