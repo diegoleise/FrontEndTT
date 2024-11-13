@@ -284,4 +284,9 @@ h2 {
 .productos{
     display: none;
 }
+.icono{
+    width: 70px;
+    margin-top: 0;
+    margin-left: 0;
+}
 }   
