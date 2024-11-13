@@ -170,7 +170,7 @@ h2 {
 .menu-icon .line{
     width: 40px;
     height: 10px;
-    background-color: white;
+    background-color:black;
     margin: 5px 0;
     transition: all 0.3s ease;
 }
@@ -181,17 +181,29 @@ h2 {
 
 
 @media (max-width: 800px)  {
+   .menu-icon .line{
+        display: flex;
+        text-align: center;
+        margin-left: 200px;
 
 
+    }
+    .nav-bar{
+    position: relative;
+    display: flex;
+    }
 
     .menu-icon{
+        justify-content: center;
+        text-align: center;
         display: flex;
         margin:auto;
+        position: relative;
     }
 
     .nav-links{
         margin: auto;
-        position: absolute;
+        position: relative;
         top: 70px;
         right: 200px;
         width: 50%;
@@ -212,7 +224,7 @@ h2 {
     .nav-links a{
         width: 100%;
         padding: 10px 20px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     #menu-toggle:checked + .menu-icon + .nav-links{
@@ -254,14 +266,22 @@ h2 {
         margin: auto;
     }
     .controls{
+        display: flex;
+        justify-content: center;
+        text-align: center;
         width: 300px;
         height: 400px;
         margin: auto;
+        font-size: 25px;
     }
     .botons{
         width: 300px;
         height: 400px;
         margin: auto;
+        font-size: 25px;
 
     }
+.productos{
+    display: none;
+}
 }   
