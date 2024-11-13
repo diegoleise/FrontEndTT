@@ -219,6 +219,13 @@ h2 {
         height: 50vh;
     }
 
+
+    .titulo{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        font-size: 35px;
+    }
     .contenedor {
         flex-direction: column;
         margin: auto;
@@ -231,7 +238,7 @@ h2 {
     }
 
     img {
-        width: 350px;
+        width: 300px;
         height: 450px;
         margin: 30px;
         border-radius: 20px;
@@ -242,6 +249,19 @@ h2 {
 
     
     .form-register{
+        width: 330px;
+        height: 400px;
         margin: auto;
+    }
+    .controls{
+        width: 300px;
+        height: 400px;
+        margin: auto;
+    }
+    .botons{
+        width: 300px;
+        height: 400px;
+        margin: auto;
+
     }
 }   
