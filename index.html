@@ -101,11 +101,12 @@
 
   <h2>HAGA SU PEDIDO</h2>
 
-  <form class="form-register">
-    <input class="controls" type="text" placeholder="INGRESE NOMBRE Y APELLIDO" required>
-    <input class="controls" type="text" placeholder="INGRESE E-MAIL" required>
-    <input class="controls" type="number" placeholder="INGRESE CANTIDAD" required>
-    <input class="controls" type="text" placeholder="INGRESE PRODUCTOS" required>
+  <form   action="https://formspree.io/f/xrbgleqy" target="_blank"
+  method="POST" class="form-register">
+    <input class="controls" type="text" placeholder="INGRESE NOMBRE Y APELLIDO" name="nombre_apellido" required>
+    <input class="controls" type="text" placeholder="INGRESE E-MAIL" name="e_mail" required>
+    <input class="controls" type="number" placeholder="INGRESE CANTIDAD" name="cantidad" required>
+    <input class="controls" type="text" placeholder="INGRESE PRODUCTOS" name="productos" required>
     <input class="botons" type="submit" value="Enviar">
   </form>
 </main>
