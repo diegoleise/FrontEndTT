@@ -188,12 +188,12 @@ h2 {
     margin: 10vh;
 }
 
-.icon-contac{
+.icon-contac {
     width: 100px;
     cursor: pointer;
 }
 
-.contenedor-icon-contac{
+.contenedor-icon-contac {
     display: flex;
     justify-content: space-around;
     margin-bottom: 30vh;
