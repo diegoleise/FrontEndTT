@@ -67,6 +67,8 @@ body {
     font-size: 40px;
     margin-right: auto;
     padding-top: 70px;
+    background-color: azure;
+    font-style: oblique;
 }
 
 .sub-titulo {
@@ -316,5 +318,22 @@ h2 {
         width: 70px;
         margin-top: 0;
         margin-left: 0;
+    }
+
+    .contenedor {
+        background-color: white;
+    }
+
+    .contenedor2 {
+        background-color: white;
+    }
+
+    img {
+        border-color: black;
+        border-style: solid;
+    }
+
+    .contenedor-descripcion{
+        color: black;
     }
 }
