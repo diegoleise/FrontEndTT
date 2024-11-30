@@ -74,8 +74,13 @@ while (argentina<5){
     argentina++
     
 }*/
-
-for(var i = 0; i<5; i++){
-    
-    console.log("probando ciclo for "+i)
-}
+let acumulador=0
+let cantidadPrecios=5
+for(var i = 0; i<cantidadPrecios; i++){
+    //i=Number
+    var acumuladorValor=Number(prompt("ingrese un precio"))
+    acumulador = acumulador + acumuladorValor
+  
+    document.write(acumulador)
+     }
+     console.log(acumulador)//si lo scribo dentro del for lo muestra 6 veces
